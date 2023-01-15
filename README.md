@@ -22,13 +22,9 @@ Use `git config --global credential.helper $(which git-credential-libsecret)` to
 
 Run `./git-credential-libsecret-add-https` and fill out the form like this to add a github PAT:
 
-|-----------------------|-------------|
 | Host (e.g GitHub.com) | github.com  |
-|-----------------------|-------------|
 | Username              | mygithubuser|
-|-----------------------|-------------|
 | Password              | myPAT!2232_ |
-|-----------------------|-------------|
 
 Click on **OK** afterwards. On success, the GNOME keyring GUI (seahorse) will be opened where you can inspect the added key.
 
