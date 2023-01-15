@@ -1,6 +1,6 @@
 # Scripts to use with git-credential-libsecret
 
-Git includes a [libsecret](https://wiki.gnome.org/Projects/Libsecret) credential helper (git-credential-libsecret`) under `/usr/share/doc/git/contrib/credential/libsecret` (Debian/Ubuntu) that can be used to interface Git with the `libsecret` keyring.
+Git includes a [libsecret](https://wiki.gnome.org/Projects/Libsecret) credential helper (`git-credential-libsecret`) under `/usr/share/doc/git/contrib/credential/libsecret` (Debian/Ubuntu) that can be used to interface Git with the `libsecret` keyring.
 
 This repository contains a simple script `git-credential-libsecret-add-https` that can be used to add passwords to the libsecret keyring using the `git-credential-libsecret` credential helper.
 
