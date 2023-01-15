@@ -23,6 +23,7 @@ Use `git config --global credential.helper $(which git-credential-libsecret)` to
 Run `./git-credential-libsecret-add-https` and fill out the form like this to add a github PAT:
 
 | Host (e.g GitHub.com) | github.com  |
+|-----------------------|-------------|
 | Username              | mygithubuser|
 | Password              | myPAT!2232_ |
 
